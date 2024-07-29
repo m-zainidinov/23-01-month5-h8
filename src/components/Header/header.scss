@@ -1,0 +1,53 @@
+.header {
+    padding: 35px 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-right {
+    display: flex;
+    column-gap: 45px;
+}
+
+.header-categories {
+    display: flex;
+    align-items: center;
+    column-gap: 75px;
+}
+
+.header a {
+    color: #000;
+    text-decoration: none;
+}
+
+.header-logo {
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41.45px;
+}
+
+.header-categories a {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+}
+
+.cart-icon-container {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-count-item {
+    position: absolute;
+    top: -17px;
+    left: 5px;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
